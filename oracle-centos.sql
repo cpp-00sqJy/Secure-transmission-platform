@@ -38,8 +38,8 @@ CREATE TABLE SECMNG.SECNODE(
  	state     			NUMBER(4)
 )TABLESPACE ts_seckey_admin;
 
-INSERT INTO SECMNG.secnode VALUES('0001', '网银中心', '北京金融街23号', '15-7月-15', 1, 0);
-INSERT INTO SECMNG.secnode VALUES('1111', '广东分中心1111', '广州天河金融', '15-7月-15', 1111, 0);
+INSERT INTO SECMNG.secnode VALUES('0001', '网银中心', '33333333号', '22-7月-15', 1, 0);
+INSERT INTO SECMNG.secnode VALUES('1111', '1111', '22222222', '22-7月-15', 1111, 0);
 commit;
 
 -- 创建 网点密钥表, 客户端网点 服务器端网点 密钥号 密钥产生时间 密钥状态 
